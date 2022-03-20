@@ -1,0 +1,4 @@
+## Run
+```
+hugo server -D
+```

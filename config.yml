@@ -1,0 +1,38 @@
+baseURL: http://ducnx.github.io
+languageCode: en-us
+title: Duc Nguyen's Website
+theme: "PaperMod"
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 1
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+params:
+  profileMode:
+    enabled: true
+    title: "Duc Nguyen" # optional default will be site title
+    imageUrl: "profile_pic.jpg" # optional
+    imageTitle: "Me" # optional
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+  socialIcons:  # optional
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/duc-nguyen-b6b831107/"
+    - name: "Github"
+      url: "https://github.com/ducnx"
+    - name: "Twitter"
+      url: "https://twitter.com/ducngx"
