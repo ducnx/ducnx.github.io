@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://ducnx.github.io/sitemap.xml
